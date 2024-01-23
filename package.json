@@ -1,0 +1,33 @@
+{
+  "name": "practice-jest-testing",
+  "version": "1.0.0",
+  "description": "Solve tasks for testing practice using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtmMtvnko/practice-jest-testing.git"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Artem Matviienko <artemm3note@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtmMtvnko/practice-jest-testing/issues"
+  },
+  "homepage": "https://github.com/ArtmMtvnko/practice-jest-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^28.1.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
