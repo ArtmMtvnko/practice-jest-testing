@@ -24,6 +24,6 @@ test('Empty string', () => {
     expect(capitalize('')).toBe('')
 })
 
-test('On;y spaces in string', () => {
+test('Only spaces in string', () => {
     expect(capitalize('   ')).toBe('')
 })
